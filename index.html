@@ -6,28 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The California Wilderness Alliance</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .banner {
+      background-image: url('https://images.unsplash.com/photo-1508780709619-79562169bc64?fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
 </head>
-<body class="bg-gradient-to-br from-green-100 to-white min-h-screen font-sans">
-  <header class="p-8 text-center">
-    <h1 class="text-4xl font-extrabold text-green-800">The California Wilderness Alliance</h1>
-    <p class="text-lg text-gray-700 mt-2 max-w-xl mx-auto">
-      Protecting California’s natural and historical treasures through restoration, education, and responsible recreation.
-    </p>
+<body class="font-sans text-gray-800">
+  <header class="banner h-96 flex items-center justify-center text-white">
+    <h1 class="text-5xl font-extrabold bg-black bg-opacity-40 p-4 rounded">The California Wilderness Alliance</h1>
   </header>
 
-  <nav class="flex justify-center gap-6 text-green-700 font-medium border-b py-4">
+  <nav class="flex justify-center gap-6 text-green-700 font-medium border-b py-4 bg-white shadow">
     <a href="#about" class="hover:text-green-900">About</a>
     <a href="#projects" class="hover:text-green-900">Projects</a>
     <a href="#get-involved" class="hover:text-green-900">Get Involved</a>
     <a href="#contact" class="hover:text-green-900">Contact</a>
   </nav>
 
-  <section id="about" class="py-16 px-6 text-center">
-    <h2 class="text-2xl font-bold text-green-900 mb-4">Our Mission</h2>
-    <p class="max-w-2xl mx-auto text-gray-800">
-      The California Wilderness Alliance is committed to maintaining and repairing recreational and historical sites across the state. 
-      We educate the public, mobilize volunteers, and restore access to California’s diverse natural environments.
+  <section id="about" class="py-16 px-6 text-center bg-green-50">
+    <h2 class="text-3xl font-bold text-green-900 mb-4">Our Mission</h2>
+    <p class="max-w-2xl mx-auto mb-6">
+      The mission of The California Wilderness Alliance is to preserve and restore recreational and historical sites across California’s diverse natural landscapes. 
+      We promote responsible stewardship through hands-on maintenance projects, educational outreach, and public engagement, ensuring safe and sustainable access for future generations.
     </p>
+    <img src="https://via.placeholder.com/150" alt="Founder Photo" class="mx-auto rounded-full mb-4">
+    <p class="max-w-xl mx-auto italic text-gray-600">Bio of Brian Carlson will go here. Placeholder text for now.</p>
+  </section>
+
+  <section id="projects" class="py-16 px-6 bg-white text-center">
+    <h2 class="text-3xl font-bold text-green-900 mb-10">Our Projects</h2>
+    <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+      <div class="bg-green-100 p-6 rounded shadow">
+        <img src="https://via.placeholder.com/400x200" class="w-full h-48 object-cover rounded mb-4" alt="Project 1">
+        <h3 class="text-xl font-semibold mb-2">[Bridge Restoration Project]</h3>
+        <p>Placeholder text for a bridge restoration project in the Stanislaus National Forest. This project will reconnect key parts of a popular trail system washed out in a recent storm.</p>
+      </div>
+      <div class="bg-green-100 p-6 rounded shadow">
+        <img src="https://via.placeholder.com/400x200" class="w-full h-48 object-cover rounded mb-4" alt="Youth Camp">
+        <h3 class="text-xl font-semibold mb-2">Youth Wilderness Day Camp</h3>
+        <p>A full-day camp introducing youth to nature, forest safety, basic survival skills, and conservation ethics. Kids will hike, learn Leave No Trace, and practice shelter-building and navigation in a supervised, fun setting.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="get-involved" class="py-16 px-6 text-center bg-green-50">
+    <h2 class="text-3xl font-bold text-green-900 mb-4">Get Involved</h2>
+    <p class="max-w-2xl mx-auto">We're building opportunities for volunteers, donors, and community partners to help protect California’s wild places. Check back soon for more details!</p>
+  </section>
+
+  <section id="contact" class="py-16 px-6 text-center bg-white">
+    <h2 class="text-3xl font-bold text-green-900 mb-4">Contact Us</h2>
+    <p class="text-lg">📧 <a href="mailto:info@tcawa.org" class="text-green-700 hover:underline">info@tcawa.org</a></p>
   </section>
 </body>
 </html>
